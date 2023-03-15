@@ -1,6 +1,15 @@
 ## Info
 
-Проект был написан с нуля, в рамках прохождения курса в Alfa Campus, как финальный проект
+Проект был написан с нуля. Используемые технологии:
+TypeScript + React
+React Router
+Redux + Redux ToolKit + Redux Thunk + Redux Persist
+React Hook Form + yup
+React Testing Library + Jest
+lodash
+Yandex maps API for React
+AlfaCoreComponents
+eslint
 
 ## Available Scripts
 

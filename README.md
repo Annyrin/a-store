@@ -1,15 +1,7 @@
 ## Info
 
 Проект был написан с нуля. Используемые технологии:
-TypeScript + React
-React Router
-Redux + Redux ToolKit + Redux Thunk + Redux Persist
-React Hook Form + yup
-React Testing Library + Jest
-lodash
-Yandex maps API for React
-AlfaCoreComponents
-eslint
+TypeScript + React / React Router / Redux + Redux ToolKit + Redux Thunk + Redux Persist / React Hook Form + yup / React Testing Library + Jest + lodash
 
 ## Available Scripts
 

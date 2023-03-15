@@ -1,0 +1,36 @@
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ef3124;
+  text-decoration: none;
+}
+
+.headerRow {
+  height: var(--header-height);
+}
+
+.text {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 800;
+  height: 100%;
+  color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .text {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .text {
+    font-size: 26px;
+  }
+
+  .logo {
+    font-size: 26px;
+  }
+}

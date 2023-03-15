@@ -1,0 +1,22 @@
+@import "./styles/fonts.css";
+@import "./styles/styles.css";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Styrene UI", Arial, sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button,
+button:active,
+button:focus {
+  border: none;
+}

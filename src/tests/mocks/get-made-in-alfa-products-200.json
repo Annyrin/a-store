@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "preview": "http://qa-games.ru/astore/public/images/15932051.jpeg",
+      "title": "Рюкзак «Для умных и свободных»",
+      "price": 4999,
+      "availability": true
+    },
+    {
+      "id": 1,
+      "preview": "http://qa-games.ru/astore/public/images/68519498.jpeg",
+      "title": "Футболка Для умных и свободных",
+      "price": 1999,
+      "availability": true
+    },
+    {
+      "id": 2,
+      "preview": "http://qa-games.ru/astore/public/images/77117755.jpeg",
+      "title": "Блокнот Для умных и свободных",
+      "price": 1499,
+      "availability": true
+    },
+    {
+      "id": 3,
+      "preview": "http://qa-games.ru/astore/public/images/15932051.jpeg",
+      "title": "Чехол с кардхолдером",
+      "price": 799,
+      "availability": false
+    },
+    {
+      "id": 4,
+      "preview": "http://qa-games.ru/astore/public/images/56369345.jpeg",
+      "title": "Экоручка",
+      "price": 99,
+      "availability": true
+    }
+  ]
+}

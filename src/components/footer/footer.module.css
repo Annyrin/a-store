@@ -1,0 +1,42 @@
+.root {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+.text {
+  color: #000000;
+  opacity: 0.35;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.textFixed {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.rootMain {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .root {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .policy {
+    display: none;
+  }
+  .rootMain {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+}

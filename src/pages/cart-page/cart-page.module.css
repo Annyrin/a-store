@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 20px 20px 0px;
+  color: #0b1f35b3;
+}
+
+.wrapper {
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.price {
+  padding: 20px;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.empty span {
+  text-align: center;
+}
+
+.message {
+  padding-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 0.5fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    color: #0b1f35b3;
+    padding: 0px 20px 0px;
+  }
+  .wrapper {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .container {
+    grid-template-columns: 300px;
+  }
+}

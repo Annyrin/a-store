@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.radio span {
+  color: #0b1f35b3;
+}
+
+.checkbox span {
+  color: #0b1f35b3;
+}
+
+.errorMessage {
+  padding-top: 5px;
+  color: #d91d0b;
+  font-size: 13px;
+}

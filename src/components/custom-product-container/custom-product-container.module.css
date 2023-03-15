@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.title {
+  font-size: 120px;
+  line-height: normal;
+  letter-spacing: -2.5px;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.paragraph {
+  font-size: 20px;
+  padding-left: 0.5em;
+}
+
+@media screen and (max-width: 1240px) {
+  .title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1114px) {
+  .title {
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 693px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .title {
+    font-size: 40px;
+  }
+  .paragraph {
+    font-size: 16px;
+  }
+}

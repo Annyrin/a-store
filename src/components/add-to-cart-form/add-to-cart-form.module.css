@@ -1,0 +1,12 @@
+.button {
+  width: 250px;
+  height: 56px;
+  border-radius: 30px;
+}
+
+.container {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,16 @@
+.priceblock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .priceblock {
+    padding-right: 20px;
+  }
+
+  .price {
+    padding-right: 20px;
+  }
+}

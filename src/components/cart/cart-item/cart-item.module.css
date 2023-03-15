@@ -1,0 +1,65 @@
+.image {
+  object-fit: contain;
+  height: 68px;
+  max-width: 68px;
+}
+
+.container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 1.1;
+  opacity: 0.85;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 155px;
+}
+
+.text {
+  font-size: 12px;
+  opacity: 0.45;
+}
+
+.amount {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.price {
+  width: 60px;
+  text-align: end;
+}
+
+.icon {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

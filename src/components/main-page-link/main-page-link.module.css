@@ -1,0 +1,45 @@
+.text {
+  position: absolute;
+  padding-left: 30px;
+  top: 60px;
+  font-size: 32px;
+  z-index: 1;
+  font-weight: bold;
+  z-index: 2;
+  color: #000;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  min-height: 1080px;
+  height: auto;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 124ms linear;
+  z-index: 1;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover .image {
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 800px) {
+  .text {
+    top: 0;
+    position: sticky;
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    height: 0px;
+  }
+
+  .image {
+    min-height: 400px;
+    height: 100%;
+  }
+}
